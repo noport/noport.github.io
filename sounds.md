@@ -1,0 +1,16 @@
+---
+layout: default
+title: Sounds
+---
+<div class="page-content wc-container">
+  <h1>Sounds</h1>
+  <ul>
+  {% for sound in site.sounds %}
+  <h5>{{ sound.title }}, {{ sound.date | date: "%Y-%m-%d" }}</h5>
+  <div class="sounds">
+    <div class="sound">
+      <div><audio src="{{ sound.link }}" controls="controls"></audio></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
