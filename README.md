@@ -1,4 +1,4 @@
-# noport.github.io
+# noport.io
 
 Website for No Port.
 
